@@ -1,4 +1,3 @@
-// Estilos do Header
 import styled from 'styled-components';
 import { Navbar, Nav } from 'react-bootstrap';
 
@@ -34,7 +33,15 @@ export const AnimatedNavLink = styled(Nav.Link)`
     transform: scale(1.1) rotateX(-5deg);
   }
 
+  &.active {
+    font-weight: bold;
+    color: #F9B572;
+  }
+`;
 
+export const LogoLink = styled(Nav.Link)`
+  color: #ffffff;
+  text-decoration: none;
 
   &.active {
     font-weight: bold;
@@ -42,4 +49,4 @@ export const AnimatedNavLink = styled(Nav.Link)`
   }
 `;
 
-export default { StyledNavbar, AnimatedNavLink };
+export default { StyledNavbar, AnimatedNavLink, LogoLink };
