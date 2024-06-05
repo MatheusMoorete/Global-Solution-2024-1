@@ -87,12 +87,11 @@ const boiasData = [
     ],
   },
   {
-    left: 'Praia dos Recifes',
     bottom: '10%',
     left: '40%',
     title: 'Boia 2',
     info: [
-      { text: 'Praia 2', isBeach: true },
+      { text: 'Praia dos Recifes', isBeach: true },
       'Nível de Poluição: Alto (200 ppm)',
       'Temperatura da Água: 24°C',
       'pH: 7.8 (Ligeiramente Alcalino)',
@@ -101,7 +100,7 @@ const boiasData = [
     ],
   },
   {
-    left: 'Jockey de Iraparica',
+    
     left: '60%',
     bottom: '15%',
     title: 'Boia 3',
@@ -115,12 +114,11 @@ const boiasData = [
     ],
   },
   {
-    left: 'Praia de Itapuã',
     left: '80%',
     bottom: '8%',
     title: 'Boia 4',
     info: [
-      { text: 'Ponta da Fruta', isBeach: true },
+      { text: 'Praia de Itapuã', isBeach: true },
       'Nível de Poluição: Crítico (300 ppm)',
       'Temperatura da Água: 26°C',
       'pH: 6.8 (Ligeiramente Ácido)',
