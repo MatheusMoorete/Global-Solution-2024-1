@@ -105,7 +105,7 @@ const boiasData = [
     bottom: '15%',
     title: 'Boia 3',
     info: [
-      { text: 'Praia 3', isBeach: true },
+      { text: 'Praia do Jockey', isBeach: true },
       'Nível de Poluição: Baixo (80 ppm)',
       'Temperatura da Água: 21°C',
       'pH: 7.0 (Neutro)',
